@@ -1,6 +1,6 @@
 # Steam Sentiment Analysis
 
-Steam Sentiment Analysis merupakan proyek analisis sentimen berbasis Natural Language Processing (NLP) yang bertujuan untuk mengklasifikasikan ulasan pengguna pada platform Steam ke dalam sentimen positif dan negatif. Proyek ini memanfaatkan representasi fitur teks menggunakan Term Frequency–Inverse Document Frequency (TF-IDF) serta beberapa algoritma machine learning untuk menganalisis persepsi pengguna terhadap gim digital secara otomatis.
+Steam Sentiment Analysis merupakan proyek analisis sentimen berbasis Natural Language Processing (NLP) yang bertujuan untuk mengklasifikasikan ulasan pengguna pada platform Steam ke dalam sentimen positif dan negatif. Proyek ini memanfaatkan representasi fitur teks menggunakan Term Frequency–Inverse Document Frequency (TF-IDF) serta beberapa algoritma machine learning untuk menganalisis persepsi pengguna terhadap gim digital secara otomatis. Link dataset : https://www.kaggle.com/datasets/andrewmvd/steam-reviews?resource=download
 
 ---
 
@@ -90,13 +90,18 @@ Analisis sentimen yang dilakukan mampu memberikan insight mengenai persepsi peng
 
 ---
 
-## Teknologi yang Digunakan
+## Cara Menjalankan Notebook
 
-- Bahasa Pemrograman: Python
-- Basis Data: PostgreSQL (Supabase)
-- Library:
-  - pandas
-  - scikit-learn
-  - psycopg2
-  - matplotlib
-  - python-dotenv
+### 1. Persiapan Lingkungan
+
+Pastikan Python telah terpasang pada sistem (disarankan Python versi 3.8 atau lebih baru). Selanjutnya, lakukan *clone* repositori ini:
+
+git clone https://github.com/valentinopp/steam-sentiment-analysis.git
+cd steam-sentiment-analysis
+
+---
+### 2. Install Dependensi
+
+pip install -r requirements.txt
+
+### 3. Jalankan notebook dari atas hingga bawah secara berurutan
