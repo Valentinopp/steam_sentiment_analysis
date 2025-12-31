@@ -92,7 +92,7 @@ Analisis sentimen yang dilakukan mampu memberikan insight mengenai persepsi peng
 
 ## Cara Menjalankan Notebook
 
-### 1. Persiapan Lingkungan
+### 1. Persiapan Environment
 
 Pastikan Python telah terpasang pada sistem (disarankan Python versi 3.8 atau lebih baru). Selanjutnya, lakukan *clone* repositori ini:
 
